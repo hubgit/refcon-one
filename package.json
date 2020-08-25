@@ -5,8 +5,8 @@
   "author": "Alf Eaton <eaton.alf@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "pug --pretty --watch --out public index.pug",
-    "build": "pug --out public index.pug"
+    "dev": "pug --pretty --watch public/index.pug",
+    "build": "pug public/index.pug"
   },
   "dependencies": {
     "pug-cli": "^1.0.0-alpha6"
