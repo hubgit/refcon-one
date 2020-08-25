@@ -1,7 +1,5 @@
 .items {
-    display: grid;
     margin: 8px;
-    grid-template-columns: minmax(600px, 30%);
 }
 
 .item {
