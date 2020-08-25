@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(name="description" content="Conference talks to watch")
+        
+        title RefCon
+        
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap")
+        link(rel="stylesheet" href="site.css")
+        link(rel="stylesheet" href="items.css")
+
+        script(src="https://kit.fontawesome.com/0b7006797a.js" crossorigin="anonymous")
+
+    body
+        header
+            h1.title RefCon
+            .subtitle Conference talks to watch
+
+        main.items
+            .item
+                .item-meta
+                    .item-title MDX Conf 2020
+                    .item-date August 24th, 2020 at 8am PDT/3pm UST
+                .item-links
+                    a(href="https://mdxjs.com/conf/") 
+                        i.fas.fa-home
+                    a(href="https://mdxjs.com/conf/")
+                        i.fas.fa-calendar
+                    a(href="https://www.twitch.tv/partycorginetwork")
+                        i.fas.fa-video
+                        //- i.fab.fa-youtube
+
+                details 
+                    summary Speakers
+                    ul
+                        li [[Chris Biscardi]] Keynote: The past, present, and future of MDX
+                        li [[Monica Powell]] Migrating to MDX
+                        li [[Laurie Barth]] MDX v2 syntax
+                        li [[Cole Bemis]] Demystifying MDX
+                        li [[Prince Wilson]] Personal site playgrounds
+                        li [[Kathleen McMahon]] Digital gardening with MDX magic
+                        li [[Rodrigo Pombo]] The X in MDX
+                        li [[Jonathan Bakebwa]] MDX and Vue/Nuxt
+
+
